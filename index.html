@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Torfin — Software that builds your future</title>
+  <meta name="description" content="Torfin is a software company that builds custom apps for clients and ships its own proprietary products. End-to-end software, done right." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo" aria-label="Torfin Home">TORFIN</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="products.html">Products</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+</div>
+
+<!-- ========== HERO ========== -->
+<section class="hero" style="background:linear-gradient(135deg,#071A47 0%,#0A2463 55%,#0D2E7A 100%);min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden;padding:0;" aria-label="Hero section">
+  <div class="hero-grid-bg">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </div>
+  <div class="container" style="position:relative;z-index:1;padding-top:120px;padding-bottom:100px;text-align:center;">
+    <span class="section-label hero-label" style="color:#5BA8DE;">✦ Building the future, one line at a time</span>
+    <h1 class="hero-title" style="color:#fff;margin:16px 0 24px;max-width:800px;margin-left:auto;margin-right:auto;">
+      Software that <span class="text-gradient">builds</span> your future.
+    </h1>
+    <p class="hero-sub" style="color:rgba(255,255,255,0.72);font-size:1.2rem;max-width:600px;margin:0 auto 40px;">
+      We build custom apps for your business and ship our own products — end-to-end software, done right.
+    </p>
+    <div class="hero-buttons" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-primary" id="hero-cta-project">
+        <i class="fa-solid fa-rocket"></i> Start a Project
+      </a>
+      <a href="products.html" class="btn btn-outline" id="hero-cta-products">
+        <i class="fa-solid fa-box"></i> Our Products
+      </a>
+    </div>
+    <div class="hero-scroll" style="margin-top:64px;display:flex;flex-direction:column;align-items:center;gap:8px;opacity:0.5;">
+      <span style="font-size:0.75rem;color:#fff;letter-spacing:0.12em;text-transform:uppercase;">Scroll to explore</span>
+      <i class="fa-solid fa-chevron-down" style="color:#fff;animation:float 2s ease-in-out infinite;"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STATS BAR ========== -->
+<div class="stats-bar" aria-label="Company statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-count="50" data-suffix="+" id="stat-projects">0+</span>
+        <span class="stat-label">Projects Delivered</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-1">
+        <span class="stat-number" data-count="10" data-suffix="+" id="stat-products">0+</span>
+        <span class="stat-label">Own Products</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-2">
+        <span class="stat-number" data-count="5" data-suffix="+" id="stat-years">0+</span>
+        <span class="stat-label">Years of Experience</span>
+      </div>
+      <div class="stat-item reveal reveal-delay-3">
+        <span class="stat-number" data-count="30" data-suffix="+" id="stat-clients">0+</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== SERVICES OVERVIEW ========== -->
+<section id="services" style="background:#fff;" aria-label="Services overview">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">What we do</span>
+      <h2 class="section-title">Services built for <span class="text-gradient">growth</span></h2>
+      <p class="section-subtitle">From web apps to mobile experiences, we craft software solutions that move businesses forward.</p>
+    </div>
+    <div class="services-grid stagger-children">
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-globe" aria-hidden="true"></i></div>
+        <h4>Web Applications</h4>
+        <p>Scalable, fast, and beautiful web apps tailored to your exact workflow and user needs.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+        <h4>Mobile Apps</h4>
+        <p>Cross-platform iOS and Android apps that deliver a native feel with a single codebase.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+        <h4>Custom Software</h4>
+        <p>Bespoke software engineered from the ground up to solve your unique business challenges.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-plug" aria-hidden="true"></i></div>
+        <h4>API &amp; Integrations</h4>
+        <p>Connect your systems seamlessly — from payment gateways to CRMs and third-party APIs.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-pen-ruler" aria-hidden="true"></i></div>
+        <h4>UI/UX Design</h4>
+        <p>Research-driven design that balances aesthetics with usability — built to convert and delight.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="service-card">
+        <div class="icon-circle"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i></div>
+        <h4>Tech Consulting</h4>
+        <p>Strategic technology guidance to help you make the right architectural and product decisions.</p>
+        <a href="services.html" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY TORFIN ========== -->
+<section class="why-section" id="why" aria-label="Why choose Torfin">
+  <div class="container">
+    <div class="grid-2">
+      <div class="reveal reveal-left">
+        <span class="section-label">Why Torfin</span>
+        <h2 class="section-title">We don't just write code — we <span class="text-gradient">craft solutions</span></h2>
+        <p>With over five years of building production software, we combine technical depth with genuine business understanding. Every line of code we write is in service of your goals.</p>
+      </div>
+      <div class="reveal reveal-right">
+        <div class="why-check-list">
+          <div class="why-check-item">
+            <div class="check-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+            <span>End-to-end ownership — from idea to deployment and beyond.</span>
+          </div>
+          <div class="why-check-item">
+            <div class="check-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+            <span>Transparent communication and agile delivery cycles.</span>
+          </div>
+          <div class="why-check-item">
+            <div class="check-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+            <span>We ship our own products, so we understand what works at scale.</span>
+          </div>
+          <div class="why-check-item">
+            <div class="check-icon"><i class="fa-solid fa-check" aria-hidden="true"></i></div>
+            <span>Post-launch support, maintenance, and continuous improvements.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRODUCTS TEASER ========== -->
+<section class="products-teaser" id="products-teaser" aria-label="Our products">
+  <div class="container" style="position:relative;z-index:1;">
+    <div class="text-center reveal">
+      <span class="section-label">Our Products</span>
+      <h2 class="section-title" style="color:#fff;">Built by us, <span class="text-gradient">for everyone</span></h2>
+      <p class="section-subtitle">Beyond client work, we build our own software products that solve real-world problems.</p>
+    </div>
+    <div class="grid-3 stagger-children" style="margin-top:16px;">
+      <div class="product-card-dark">
+        <div class="product-icon"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i></div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+          <h4>TorFlow</h4>
+          <span class="badge badge-sky">SaaS</span>
+        </div>
+        <p class="product-tagline">Visual workflow automation for modern teams</p>
+        <a href="products.html" class="btn btn-outline" style="font-size:0.85rem;padding:9px 20px;">View Product</a>
+      </div>
+      <div class="product-card-dark">
+        <div class="product-icon"><i class="fa-solid fa-headset" aria-hidden="true"></i></div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+          <h4>TorDesk</h4>
+          <span class="badge badge-sky">SaaS</span>
+        </div>
+        <p class="product-tagline">Smart customer support &amp; helpdesk platform</p>
+        <a href="products.html" class="btn btn-outline" style="font-size:0.85rem;padding:9px 20px;">View Product</a>
+      </div>
+      <div class="product-card-dark">
+        <div class="product-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+          <h4>TorTrack</h4>
+          <span class="badge badge-sky">Tool</span>
+        </div>
+        <p class="product-tagline">Project tracking with intelligent insights</p>
+        <a href="products.html" class="btn btn-outline" style="font-size:0.85rem;padding:9px 20px;">View Product</a>
+      </div>
+    </div>
+    <div class="text-center" style="margin-top:48px;">
+      <a href="products.html" class="btn btn-primary" id="home-view-all-products">View All Products <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonials" id="testimonials" aria-label="Client testimonials">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">Testimonials</span>
+      <h2 class="section-title">What our clients <span class="text-gradient">say</span></h2>
+    </div>
+    <div class="grid-3 stagger-children" style="margin-top:16px;">
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">Torfin delivered our e-commerce platform two weeks ahead of schedule. The quality of code and attention to UX detail completely exceeded our expectations.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">AK</div>
+          <div>
+            <span class="author-name">Arjun Kapoor</span>
+            <span class="author-role">CTO, RetailNova</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">From consulting through deployment, the Torfin team was transparent and proactive at every step. Our mobile app has a 4.8★ rating on the App Store.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">PR</div>
+          <div>
+            <span class="author-name">Priya Rathore</span>
+            <span class="author-role">Founder, HealthBridge</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="quote-icon">"</div>
+        <p class="testimonial-text">We use TorTrack internally and it's transformed how our team manages sprints. It's rare to find a company that both builds great products AND does great client work.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">SM</div>
+          <div>
+            <span class="author-name">Suresh Mehta</span>
+            <span class="author-role">Product Lead, Finvue</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA BANNER ========== -->
+<section class="cta-banner" aria-label="Call to action">
+  <div class="container" style="position:relative;z-index:1;">
+    <span class="section-label" style="color:rgba(255,255,255,0.6);">Let's Build Together</span>
+    <h2 class="reveal">Ready to build something great?</h2>
+    <p class="reveal reveal-delay-1">Tell us about your project and we'll get back to you within 24 hours.</p>
+    <div class="reveal reveal-delay-2">
+      <a href="contact.html" class="btn btn-white" id="home-cta-contact">
+        <i class="fa-solid fa-paper-plane"></i> Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">TORFIN</div>
+        <p>Software that builds your future. Custom apps &amp; proprietary products — end-to-end.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul role="list">
+          <li><a href="services.html">Web Applications</a></li>
+          <li><a href="services.html">Mobile Apps</a></li>
+          <li><a href="services.html">Custom Software</a></li>
+          <li><a href="services.html">API &amp; Integrations</a></li>
+          <li><a href="services.html">UI/UX Design</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul role="list">
+          <li><a href="products.html">TorFlow</a></li>
+          <li><a href="products.html">TorDesk</a></li>
+          <li><a href="products.html">TorTrack</a></li>
+          <li><a href="products.html">View All</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul role="list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#team">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Get a Quote</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Torfin. All rights reserved.</span>
+      <span>Made with <i class="fa-solid fa-heart" style="color:#3E92CC;"></i> by Torfin</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

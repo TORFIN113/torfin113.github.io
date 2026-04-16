@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — Torfin Software</title>
+  <meta name="description" content="Learn about Torfin — our mission, our story, and the values that drive us to build exceptional software." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo" aria-label="Torfin Home">TORFIN</a>
+    <ul class="nav-links" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+  <a href="index.html">Home</a><a href="services.html">Services</a><a href="products.html">Products</a>
+  <a href="about.html">About</a><a href="contact.html">Contact</a>
+  <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+</div>
+
+<!-- PAGE HERO -->
+<header class="page-hero" aria-label="About page hero">
+  <div class="container" style="position:relative;z-index:1;">
+    <span class="section-label" style="color:#5BA8DE;">Who we are</span>
+    <h1>We are Torfin</h1>
+    <p>A software company on a mission to build technology that creates real, lasting impact.</p>
+  </div>
+</header>
+
+<!-- MISSION -->
+<section style="background:#fff;" aria-label="Mission statement">
+  <div class="container">
+    <div class="grid-2" style="gap:64px;">
+      <div class="reveal reveal-left">
+        <span class="section-label">Our Mission</span>
+        <h2 class="section-title">We build software that <span class="text-gradient">matters</span></h2>
+        <p style="margin-bottom:20px;">At Torfin, we believe that great software has the power to transform businesses, improve lives, and shape the future. Founded in Rajamahendravaram, India, we started as a small team of passionate engineers who wanted to do software differently — with craft, transparency, and genuine client partnership.</p>
+        <p>Today, we serve clients across industries, building everything from consumer apps to enterprise platforms — while simultaneously developing our own products that we're proud to put our name on. Both sides of our work make us better: client projects sharpen our delivery skills, and product work gives us a builder's perspective.</p>
+      </div>
+      <div class="reveal reveal-right">
+        <div style="background:var(--neutral);border-radius:var(--radius-lg);padding:40px 36px;border:1px solid var(--neutral-2);">
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;">
+            <div style="text-align:center;padding:24px 16px;background:#fff;border-radius:var(--radius-md);box-shadow:var(--shadow-sm);">
+              <div style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--navy);" data-count="50" data-suffix="+">0+</div>
+              <div style="font-size:0.85rem;color:var(--text-muted);margin-top:4px;font-weight:500;">Projects Done</div>
+            </div>
+            <div style="text-align:center;padding:24px 16px;background:#fff;border-radius:var(--radius-md);box-shadow:var(--shadow-sm);">
+              <div style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--navy);" data-count="30" data-suffix="+">0+</div>
+              <div style="font-size:0.85rem;color:var(--text-muted);margin-top:4px;font-weight:500;">Happy Clients</div>
+            </div>
+            <div style="text-align:center;padding:24px 16px;background:#fff;border-radius:var(--radius-md);box-shadow:var(--shadow-sm);">
+              <div style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--navy);" data-count="10" data-suffix="+">0+</div>
+              <div style="font-size:0.85rem;color:var(--text-muted);margin-top:4px;font-weight:500;">Own Products</div>
+            </div>
+            <div style="text-align:center;padding:24px 16px;background:#fff;border-radius:var(--radius-md);box-shadow:var(--shadow-sm);">
+              <div style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--navy);" data-count="5" data-suffix="+">0+</div>
+              <div style="font-size:0.85rem;color:var(--text-muted);margin-top:4px;font-weight:500;">Years Active</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY — TIMELINE -->
+<section style="background:var(--neutral);" aria-label="Our story timeline" id="story">
+  <div class="container" style="max-width:800px;">
+    <div class="text-center reveal">
+      <span class="section-label">Our Story</span>
+      <h2 class="section-title">From a small team to a <span class="text-gradient">growing studio</span></h2>
+    </div>
+    <div class="timeline reveal" style="margin-top:56px;">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2020</div>
+        <h4>Founded in Rajamahendravaram</h4>
+        <p>Torfin was started by a group of engineers who shared one simple belief: software should be built right, not just built fast. We took on our first two freelance projects with a handshake and a deadline.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2021</div>
+        <h4>First Major Client Project</h4>
+        <p>We delivered a full-stack SaaS platform for a logistics startup in Hyderabad — our first six-figure project. This validated our approach to technical excellence and client communication.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2022</div>
+        <h4>Launched TorTrack Internally</h4>
+        <p>Frustrated with existing project tools, we built TorTrack for our own team. Clients started asking to use it too — and our products division was born.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2023</div>
+        <h4>Expanded to Mobile &amp; AI</h4>
+        <p>Added Flutter development and AI-integration capabilities to our service offering. Delivered 18 projects that year alone, including two mobile apps now live in the App Store.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-year">2024 →</div>
+        <h4>Growing Our Product Suite</h4>
+        <p>TorFlow launched publicly. TorDesk entered beta. We're now a team of 12, serving clients globally while continuing to build and ship products under the Torfin brand.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section style="background:#fff;" aria-label="Our team" id="team">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">The Team</span>
+      <h2 class="section-title">The people behind <span class="text-gradient">Torfin</span></h2>
+      <p class="section-subtitle">A team of builders, designers, and strategists who care deeply about the craft.</p>
+    </div>
+    <div class="team-grid stagger-children" style="margin-top:16px;">
+      <div class="team-card">
+        <div class="team-avatar" aria-hidden="true">KR</div>
+        <h4>Kiran Reddy</h4>
+        <div class="team-role">Founder &amp; CEO</div>
+        <p>Full-stack engineer turned company builder. Kiran leads product vision and client strategy, bringing 8+ years of software engineering experience to every decision.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar" aria-hidden="true">SP</div>
+        <h4>Sneha Prasad</h4>
+        <div class="team-role">Head of Design</div>
+        <p>Former UX lead at a Bangalore-based startup. Sneha drives Torfin's design philosophy — making complex software feel intuitive and beautiful.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar" aria-hidden="true">AR</div>
+        <h4>Aditya Rao</h4>
+        <div class="team-role">Lead Engineer</div>
+        <p>Backend specialist with a love for distributed systems. Aditya architects the infrastructure that keeps Torfin's client apps and products running at scale.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES -->
+<section style="background:var(--neutral);" aria-label="Our values">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-label">Our Values</span>
+      <h2 class="section-title">What drives us <span class="text-gradient">every day</span></h2>
+    </div>
+    <div class="values-grid stagger-children" style="margin-top:16px;">
+      <div class="value-card">
+        <div class="value-icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></div>
+        <h4>Innovation</h4>
+        <p>We challenge conventional thinking and embrace new technologies when they genuinely improve outcomes.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fa-solid fa-gem" aria-hidden="true"></i></div>
+        <h4>Quality</h4>
+        <p>We don't cut corners. Every piece of code, every pixel, every interaction is held to the highest standard.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fa-solid fa-eye" aria-hidden="true"></i></div>
+        <h4>Transparency</h4>
+        <p>We communicate openly — with our clients, our team, and our users. No hidden surprises, ever.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+        <h4>Speed</h4>
+        <p>Speed without quality is reckless, but quality without speed is irrelevant. We deliver both, consistently.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-banner" aria-label="Call to action">
+  <div class="container" style="position:relative;z-index:1;">
+    <h2 class="reveal">Want to work with us?</h2>
+    <p class="reveal reveal-delay-1">We're always open to exciting new projects and collaborations.</p>
+    <div class="reveal reveal-delay-2" style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-white" id="about-contact-cta">
+        <i class="fa-solid fa-paper-plane"></i> Get in Touch
+      </a>
+      <a href="services.html" class="btn btn-outline" id="about-services-cta">
+        View Services
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer aria-label="Site footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">TORFIN</div>
+        <p>Software that builds your future. Custom apps &amp; proprietary products — end-to-end.</p>
+      </div>
+      <div class="footer-col"><h5>Services</h5><ul role="list">
+        <li><a href="services.html">Web Applications</a></li><li><a href="services.html">Mobile Apps</a></li>
+        <li><a href="services.html">Custom Software</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Products</h5><ul role="list">
+        <li><a href="products.html">TorFlow</a></li><li><a href="products.html">TorDesk</a></li>
+        <li><a href="products.html">TorTrack</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Company</h5><ul role="list">
+        <li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Get a Quote</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Torfin. All rights reserved.</span>
+      <span>Made with <i class="fa-solid fa-heart" style="color:#3E92CC;"></i> by Torfin</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
