@@ -12,7 +12,7 @@ A complete, multi-page static website for **Torfin** — a software company that
 torfin-website/
 ├── index.html          → Home page
 ├── services.html       → Client services
-├── products.html       → Our products (TorFlow, TorDesk, TorTrack)
+├── products.html       → Our products (StudyHive, Revise Buddy, Vanaraksha)
 ├── about.html          → About us, story, team, values
 ├── contact.html        → Contact form + info panel
 ├── css/
@@ -134,6 +134,6 @@ DNS propagation can take up to 48 hours.
 
 ## 📞 Contact
 
-**Torfin** — Rajamahendravaram, Andhra Pradesh, India  
-Email: hello@torfin.io  
-&copy; 2024 Torfin. All rights reserved.
+**Torfin** — Andhra Pradesh, India  
+Email: torfin@myyahoo.com  
+&copy; 2024 Torfin.

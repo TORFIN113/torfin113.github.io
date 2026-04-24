@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Products — Torfin Software</title>
+  <meta name="description"
+    content="Discover Torfin's own software products: StudyHive, Revise Buddy, and Vanaraksha — built to solve real-world problems at scale." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo" aria-label="Torfin Home">TORFIN</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-nav" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+    <a href="index.html">Home</a><a href="services.html">Services</a><a href="products.html">Products</a>
+    <a href="about.html">About</a><a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <header class="page-hero" aria-label="Products hero">
+    <div class="container" style="position:relative;z-index:1;">
+      <span class="section-label" style="color:#5BA8DE;">Our product suite</span>
+      <h1>Built by us, for everyone</h1>
+      <p>Beyond client work, we build proprietary software products that solve real problems at scale.</p>
+    </div>
+  </header>
+
+  <!-- PRODUCTS SHOWCASE -->
+  <section style="background:#fff;" aria-label="Product showcase">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Product Suite</span>
+        <h2 class="section-title">Software we're <span class="text-gradient">proud to ship</span></h2>
+        <p class="section-subtitle">Each product is built in-house with the same care and rigor we give to client
+          projects.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:40px;margin-top:16px;">
+
+        <!-- StudyHive -->
+        <div class="product-showcase-card reveal">
+          <div class="product-header">
+            <div>
+              <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px;">
+                <div
+                  style="width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#3E92CC,#0A2463);display:flex;align-items:center;justify-content:center;">
+                  <i class="fa-solid fa-diagram-project" style="color:#fff;font-size:1.4rem;" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="product-name">StudyHive</div>
+                  <div style="display:flex;gap:8px;">
+                    <span class="badge badge-sky">Mobile &amp; Web App</span>
+                    <span class="badge badge-green status-live">Live</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p style="font-size:1rem;color:#1C1C1E;line-height:1.75;max-width:700px;">Connect to fellow learners.</p>
+          <div class="product-feature-list" style="margin-top:24px;">
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Drag-and-drop
+              workflow builder with 200+ pre-built action blocks</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Real-time execution
+              logs and error monitoring</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Integrates with
+              Slack, Gmail, GitHub, Notion, and 50+ apps</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Role-based access
+              control for teams of all sizes</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Webhook triggers
+              and scheduled automation runs</div>
+          </div>
+          <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary" id="studyhive-learn">Learn More <i
+                class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="btn btn-outline-navy" id="studyhive-demo">Request Demo</a>
+          </div>
+        </div>
+
+        <!-- Revise Buddy -->
+        <div class="product-showcase-card reveal">
+          <div class="product-header">
+            <div>
+              <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px;">
+                <div
+                  style="width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#3E92CC,#0A2463);display:flex;align-items:center;justify-content:center;">
+                  <i class="fa-solid fa-headset" style="color:#fff;font-size:1.4rem;" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="product-name">Revise Buddy</div>
+                  <div style="display:flex;gap:8px;">
+                    <span class="badge badge-sky">Mobile &amp; Web App</span>
+                    <span class="badge badge-amber">Beta</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p style="font-size:1rem;color:#1C1C1E;line-height:1.75;max-width:700px;">Last min exam prep.</p>
+          <div class="product-feature-list" style="margin-top:24px;">
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> AI-powered ticket
+              routing and auto-responses</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Shared inbox for
+              email, chat, and social channels</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Rich knowledge base
+              builder with SEO-friendly articles</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> SLA management and
+              escalation rules</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> CSAT surveys and
+              support analytics dashboard</div>
+          </div>
+          <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary" id="revisebuddy-learn">Learn More <i
+                class="fa-solid fa-arrow-right"></i></a>
+            <a href="contact.html" class="btn btn-outline-navy" id="revisebuddy-beta">Join Beta</a>
+          </div>
+        </div>
+
+        <!-- Vanaraksha -->
+        <div class="product-showcase-card reveal">
+          <div class="product-header">
+            <div>
+              <div style="display:flex;align-items:center;gap:14px;margin-bottom:10px;">
+                <div
+                  style="width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#3E92CC,#0A2463);display:flex;align-items:center;justify-content:center;">
+                  <i class="fa-solid fa-chart-line" style="color:#fff;font-size:1.4rem;" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div class="product-name">Vanaraksha</div>
+                  <div style="display:flex;gap:8px;">
+                    <span class="badge badge-navy">Mobile &amp; Web App</span>
+                    <span class="badge badge-gray">Coming Soon</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p style="font-size:1rem;color:#1C1C1E;line-height:1.75;max-width:700px;">Vanaraksha is a specialized exam preparation platform tailored for the AP Forest Department exams. It equips aspirants with comprehensive study materials, previous papers, and mock tests to secure their forestry goals.</p>
+          <div class="product-feature-list" style="margin-top:24px;">
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Comprehensive AP Forest Exam syllabus coverage</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Section-wise mock tests and full-length practice exams</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Daily quizzes and current affairs updates</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Detailed performance analytics and progress tracking</div>
+            <div class="product-feature"><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Offline access to study materials and revision notes</div>
+          </div>
+          <div style="margin-top:28px;display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-primary" id="vanaraksha-notify">Get Notified <i
+                class="fa-solid fa-bell"></i></a>
+            <a href="contact.html" class="btn btn-outline-navy" id="vanaraksha-info">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BUILD YOUR OWN CTA -->
+  <section style="background:var(--neutral);" aria-label="Custom software CTA">
+    <div class="container">
+      <div
+        style="background:linear-gradient(135deg,var(--navy),#0D2E7A);border-radius:var(--radius-xl);padding:64px 48px;text-align:center;position:relative;overflow:hidden;"
+        class="reveal">
+        <div
+          style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 30%,rgba(62,146,204,0.2) 0%,transparent 60%);">
+        </div>
+        <div style="position:relative;z-index:1;">
+          <span class="section-label" style="color:#5BA8DE;">Work with us</span>
+          <h2 style="color:#fff;margin:12px 0 16px;">Want to build your own software?</h2>
+          <p style="color:rgba(255,255,255,0.7);max-width:520px;margin:0 auto 36px;">Whether it's a SaaS product,
+            internal tool, or consumer app — we can help you take it from idea to launch.</p>
+          <a href="contact.html" class="btn btn-primary" id="products-build-cta">
+            <i class="fa-solid fa-rocket"></i> Start a Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">TORFIN</div>
+          <p>Software that builds your future. Custom apps &amp; proprietary products — end-to-end.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul role="list">
+            <li><a href="services.html">Web Applications</a></li>
+            <li><a href="services.html">Mobile Apps</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Products</h5>
+          <ul role="list">
+            <li><a href="products.html">StudyHive</a></li>
+            <li><a href="products.html">Revise Buddy</a></li>
+            <li><a href="products.html">Vanaraksha</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul role="list">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">Get a Quote</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2024 Torfin.</span>
+        <span>Made with <i class="fa-solid fa-heart" style="color:#3E92CC;"></i> by Torfin</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
